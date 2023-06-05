@@ -1,0 +1,471 @@
+
+/* NAVBAR */
+
+.homepage {
+    align-items: center;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    height: 4819px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+}
+
+.nav-bar {
+    align-items: center;
+    display: flex;
+    height: 59px;
+    left: 85px;
+    position: absolute;
+    top: 13px;
+    width: 127px;
+}
+
+.milk-coffee-logo {
+    background-image: url("logo/blue logo.png");
+    background-position: -45px -70.753px;
+    background-size: 182.143% 348.606%;
+    flex-shrink: 0;
+    height: 59px;
+    position: relative;
+    width: 112px;
+}
+
+.navbar-section {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-shrink: 0;
+    height: 100%;
+    padding: 1px 0 11px 318px;
+}
+.nav-home {
+    align-items: center;
+    color: black;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 1.2125;
+    margin-right: 101px;
+    white-space: nowrap;
+}
+
+.nav-menu {
+    align-items: center;
+    color: black;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 1.2125;
+    margin-right: 80px;
+    white-space: nowrap;
+}
+
+
+.nav-locations {
+    align-items: center;
+    color: black;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 1.2125;
+    margin-right: 65px;
+    white-space: nowrap;
+}
+
+.nav-about {
+    align-items: center;
+    color: black;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 1.2125;
+    margin-right: 71px;
+    white-space: nowrap;
+}
+
+.nav-contact {
+    align-items: center;
+    color: black;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 1.2125;
+    margin-right: 59px;
+    white-space: nowrap;
+}
+
+.nav-coffee {
+    align-items: center;
+    background-color: #D1DCF2;
+    border-radius: 40px;
+    color: #2873f0;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 1.2125;
+    white-space: nowrap;
+    width: 138px;
+    height: 38px;
+}
+
+/* DRINKS HERO SECTION */
+
+.drinks {
+    height: 788px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 100px;
+    vertical-align: top;
+    width: 1440px;
+}
+
+/* HERO TEXT */
+
+.hero-text {
+    align-items: center;
+    color: #fb6305;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+    height: 25px;
+    justify-content: center;
+    left: 569px;
+    line-height: 1.2175;
+    position: absolute;
+    top: 955.5px;
+    white-space: nowrap;
+    width: 301px;
+}
+
+.hero-message {
+    align-items: center;
+    color: #fb6305;
+    text-align: center;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    height: 195px;
+    justify-content: center;
+    left: 193px;
+    line-height: 1.2175;
+    position: absolute;
+    top: 1000px;
+    width: 1100px;
+}
+
+.hero-button {
+    align-items: center;
+    border: solid 1px #2873f0;
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #2873f0;
+    display: flex;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    height: 52px;
+    justify-content: center;
+    left: 534px;
+    line-height: 1.2175;
+    position: absolute;
+    top: 1341px;
+    white-space: nowrap;
+    width: 370px;
+}
+
+.locations-image {
+    height: 786px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 1442px;
+    vertical-align: top;
+    width: 1440px;
+}
+
+.locations-group {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 286px;
+    left: 0;
+    padding: 40px 151px 105px 12px;
+    position: absolute;
+    top: 2228px;
+    width: 1440px;
+}
+
+.locations-name {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    margin-bottom: 45px;
+    width: 100%;
+}
+
+.nyc {
+    color: #fb6305;
+    flex-shrink: 0;
+    font-family:'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2175;
+    margin-right: 161px;
+    white-space: nowrap;
+}
+
+.la {
+    color: #fb6305;
+    flex-shrink: 0;
+    font-family:'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2175;
+    margin-right: 164px;
+    white-space: nowrap;
+}
+
+.sf {
+    color: #fb6305;
+    flex-shrink: 0;
+    font-family:'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2175;
+    white-space: nowrap;
+}
+
+.locations-button {
+    align-items: center;
+    border: solid 1px #2873f0;
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #2873f0;
+    display: flex;
+    flex-shrink: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    height: 52px;
+    justify-content: center;
+    line-height: 1.2175;
+    margin: 0 425px 0 482px;
+    white-space: nowrap;
+    width: 235px;
+}
+
+.handcrafted-coffee {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 1140px;
+    left: 0;
+    padding: 0 101px 66px 99px;
+    position: absolute;
+    top: 2514px;
+    width: 1440px;
+}
+
+.handcrafted-image {
+    background-image: url("homepage images/coffee bags.webp");
+    border: solid 1px #2873f0;
+    flex-shrink: 0;
+    height: 718px;
+    margin-bottom: 120px;
+    object-fit: cover;
+    vertical-align: top;
+    width: 1240px;
+}
+
+.handcrafted-group {
+    align-items: flex-start;
+    display: flex;
+    flex-shrink: 0;
+    height: 226px;
+    margin-right: 5px;
+    width: 1240px;
+}
+
+.handcrafted-title{
+    color: #2873f0;
+    flex-shrink: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2175;
+    position: absolute;
+    left: 6.88%;
+    right: 57.92%;
+    top: 69.56%;
+    bottom: 25.54%;
+}
+
+.handcrafted-group2 {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 100%;
+}
+
+.handcrafted-text {
+    color: black;
+    flex-shrink: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2175;
+    position: absolute;
+    width: 666px;
+    height: 165px;
+    left: 673px;
+    top: 832px;
+    
+}
+
+.handcrafted-button {
+    align-items: center;
+    border: solid 1px #2873f0;
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #2873f0;
+    display: flex;
+    flex-shrink: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    height: 49px;
+    justify-content: center;
+    line-height: 1.2175;
+    white-space: nowrap;
+    width: 270px;
+}
+
+.testimonials {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 739px;
+    left: 99px;
+    position: absolute;
+    top: 3715px;
+    width: 1240px;
+}
+
+.testimonials-images {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.woman {
+    flex-shrink: 0;
+    height: 499px;
+    margin-right: 198.52px;
+    object-fit: cover;
+    vertical-align: top;
+    width: 520.74px;
+    border: solid 1px #2873f0;
+}
+
+.man {
+    flex-shrink: 0;
+    height: 499px;
+    object-fit: cover;
+    vertical-align: top;
+    width: 520.74px;
+    border: solid 1px #2873f0;
+}
+
+.testimonials-texts {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 27px 11.87px 0 15.37px;
+    width: 100%;
+}
+
+.text-names {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    margin: 0 174px 27px 700px;
+    width: calc(100%-340.5px);
+}
+
+.woman-name {
+    color: #fb6305;
+    flex-shrink: 0;
+    font-family:'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.2175;
+    margin-right: 566.26px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.man-name {
+    color: #fb6305;
+    flex-shrink: 0;
+    font-family:'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.2175;
+    margin-right: 566.26px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.group-text {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.woman-text {
+    color: black;
+    flex-shrink: 0;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2175;
+    margin-right: 225.76px;
+    max-width: 490px;
+    text-align: center;
+}
+
+
+.man-text {
+    color: black;
+    flex-shrink: 0;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2175;
+    max-width: 497px;
+    text-align: center;
+}
+
