@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milk Coffee: About us</title>
+    <link rel="stylesheet" href="about us.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      </style>
+    
+    <!---- NAVBAR --> 
+
+    <section class="header">
+        <nav>
+          <a href="index.html"> <img src="logo/blue logo.png" alt=""></a>
+
+          <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="menu page.html">MENU</a></li>
+              <li><a href="locations.html">LOCATIONS</a></li>
+              <li><a href="About Us.html">ABOUT US</a></li>
+              <li><a href="contact page.html">CONTACT</a></li>
+              <li><a href="handcrafted coffee.html">OUR COFFEE</a></li>
+            </ul>
+          </div>
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+        <div class="text-box">
+          <h1 class="heading">We invite you to join us on this journey, to indulge in the extraordinary, and to experience the essence of Milk Coffee — a testament to the power of exceptional coffee to enrich lives and create meaningful connections.</h1>
+          <a class="hero-button" href="locations.html">Find us here</a>
+        </div>
+      </section>
+
+
+    <!-- About Section -->
+
+    <section class="about">
+        <div class="main">
+            <img src="about/coffee image.png" alt="">
+
+        <div class="about-text">
+            <h4>Unveiling the <br> Essence of <br> Milk Coffee</h4>
+            <p>With a rich history spanning over several decades, Milk Coffee has evolved from a modest coffee shop into an iconic brand known for its exceptional brews. It all began in the bustling streets of a vibrant city, where a small group of passionate coffee enthusiasts had a vision—to redefine the coffee experience and create a haven for those seeking moments of respite and inspiration.</p>
+            <p>Since our inception in 2012, Milk Coffee has grown steadily, fuelled by our unwavering commitment to quality and innovation. We meticulously source the finest coffee beans from around the world, ensuring that each batch meets our rigorous standards. Our master roasters then work their magic, carefully coaxing out the inherent flavours and aromas, resulting in a harmonious symphony of taste with every sip.</p>
+            <p>At Milk Coffee, we are on a mission to ignite the vibrant energy of our bustling world by crafting exceptional coffee experiences. We believe that coffee is more than just a beverage; it's a catalyst for inspiration and connection. Our modern and contemporary coffee shops provide a sanctuary for young souls who seek a moment of respite amidst their busy lives. We strive to create an ambience that fosters both productivity and relaxation, where every sip transports you to a world of bold flavours and invigorating aromas. Our mission is to fuel the passions of our customers and empower them to pursue their dreams with the unwavering support of our handcrafted coffee.</p>
+        </div>   
+    </div>
+    </section>
+    
+
+    <!---- Footer --->
+
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+  
+            <div class="footer-col">
+                <ul>
+                  <img src="logo/black logo.png" alt="">
+                </ul>
+            </div>
+  
+            <div class="footer-col">
+              <h4>Contact</h4>
+                <ul>
+                  <li><a href="mailto:info@milkcoffee.com">info@milkcoffee.com</a></li>
+                  <li><a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+                  <li><a href="https://www.google.com/maps/place/456+Oak+St,+San+Francisco,+CA+94102,+USA/@37.7746605,-122.4295008,17z/data=!3m1!4b1!4m5!3m4!1s0x808580a186de132f:0xd48475bbe59016b4!8m2!3d37.7746605!4d-122.4269259?entry=ttu">456 Oak Street, SF, CA 94102</a></li>
+                </ul>
+            </div>
+  
+            <div class="footer-col">
+              <h4>Social Media</h4>
+                <ul>
+                  <li><a href="https://www.instagram.com">Instagram</a></li>
+                  <li><a href="https://www.facebook.com">Facebook</a></li>
+                  <li><a href="https://twitter.com">Twitter</a></li>
+                </ul>
+            </div>
+  
+            <div class="footer-col">
+              <h4>Explore</h4>
+                <ul>
+                  <li><a href="About Us.html">About</a></li>
+                  <li><a href="menu page.html">Menu</a></li>
+                  <li><a href="locations.html">Locations</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        
+  
+      <!---- JavaScript for toogle menu --->
+     <script>
+      var navLinks = document.getElementById("navLinks")
+  
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+  
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+     </script>
+
+</body>
+</html>
